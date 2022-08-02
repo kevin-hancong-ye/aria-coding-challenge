@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders accordian component 1`] = `
+<div
+  aria-labelledby="accordian-heading"
+  data-testid="accordian"
+  id="accordian_section"
+  role="region"
+>
+  <h2
+    aria-level="2"
+    id="accordian-heading"
+    role="heading"
+  >
+    Accordian
+  </h2>
+  <div
+    class="accordionContainer"
+  >
+    <button
+      aria-controls="accordian-control-personal-info"
+      aria-expanded="false"
+      class="accordianItemHeader"
+      data-testid="personal-info"
+      type="button"
+    >
+      Personal Information
+    </button>
+    <div
+      aria-hidden="true"
+      class="accordionItemContainer"
+      id="accordian-control-personal-info"
+      style="display: none;"
+    >
+      <div
+        aria-labelledby="article-title-1"
+        data-testid="article-1"
+        role="article"
+      >
+        <h3
+          aria-level="3"
+          id="article-title-1"
+          role="heading"
+        >
+          consectetur adipiscing
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tu vero, inquam, ducas licet, si sequetur; Causa autem fuit huc veniendi ut quosdam hinc libros promerem. Quid est, quod ab ea absolvi et perfici debeat? Ut alios omittam, hunc appello, quem ille unum secutus est.
+        </p>
+      </div>
+    </div>
+    <button
+      aria-controls="accordian-control-other-info"
+      aria-expanded="false"
+      class="accordianItemHeader"
+      data-testid="other-info"
+      type="button"
+    >
+      Other Information
+    </button>
+    <div
+      aria-hidden="true"
+      class="accordionItemContainer"
+      id="accordian-control-other-info"
+      style="display: none;"
+    >
+      <div
+        aria-labelledby="article-title-2"
+        data-testid="article-2"
+        role="article"
+      >
+        <h3
+          aria-level="3"
+          id="article-title-2"
+          role="heading"
+        >
+          consectetur adipiscing
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tu vero, inquam, ducas licet, si sequetur; Causa autem fuit huc veniendi ut quosdam hinc libros promerem. Quid est, quod ab ea absolvi et perfici debeat? Ut alios omittam, hunc appello, quem ille unum secutus est.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders accordian component 2`] = `
+<div
+  aria-labelledby="article-title-1"
+  data-testid="article-1"
+  role="article"
+>
+  <h3
+    aria-level="3"
+    id="article-title-1"
+    role="heading"
+  >
+    consectetur adipiscing
+  </h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tu vero, inquam, ducas licet, si sequetur; Causa autem fuit huc veniendi ut quosdam hinc libros promerem. Quid est, quod ab ea absolvi et perfici debeat? Ut alios omittam, hunc appello, quem ille unum secutus est.
+  </p>
+</div>
+`;
+
+exports[`renders accordian component 3`] = `
+<div
+  aria-labelledby="article-title-1"
+  data-testid="article-1"
+  role="article"
+>
+  <h3
+    aria-level="3"
+    id="article-title-1"
+    role="heading"
+  >
+    consectetur adipiscing
+  </h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tu vero, inquam, ducas licet, si sequetur; Causa autem fuit huc veniendi ut quosdam hinc libros promerem. Quid est, quod ab ea absolvi et perfici debeat? Ut alios omittam, hunc appello, quem ille unum secutus est.
+  </p>
+</div>
+`;

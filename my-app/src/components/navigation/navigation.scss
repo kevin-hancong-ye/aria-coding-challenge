@@ -1,0 +1,26 @@
+.navigationContainer {
+	flex: 1;
+	position: relative;
+	align-self: stretch;
+	margin: 0 20px;
+	margin-top: 40px;
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		padding: 25px;
+		border-style: solid;
+
+		a {
+			text-decoration: none;
+		}
+	}
+
+	li:not(:last-child) {
+		margin-bottom: 3px;
+	}
+}

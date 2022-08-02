@@ -1,0 +1,12 @@
+.bannerContainer {
+	background-image: url("./banner.png");
+	padding-bottom: 25%; /* for a 4:3 aspect ratio */
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-style: solid;
+
+	h1 {
+		margin: 0;
+	}
+}

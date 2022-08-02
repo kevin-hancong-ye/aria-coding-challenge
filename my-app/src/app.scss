@@ -1,0 +1,16 @@
+.appContainer {
+	padding: 70px 40px;
+}
+
+.bodyContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.rightContainer {
+	flex: 1;
+	align-self: flex-start;
+	margin: 0 20px;
+	margin-top: 40px;
+}

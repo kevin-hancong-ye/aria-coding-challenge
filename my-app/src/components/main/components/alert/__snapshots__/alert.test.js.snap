@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`on press trigger alert button 1`] = `
+<div
+  data-testid="alert-diaglog-info"
+  id="alertText"
+>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis istum dolorem timet? Erat enim res aperta. Habes, inquam, Cato, formam eorum, de quibus loquor, philosophorum. Respondeat totidem verbis. Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Duo Reges: constructio interrete. Cupit enim dícere nihil posse ad beatam vitam deesse sapienti.
+</div>
+`;
+
+exports[`render alert dialog on press trigger alert button show 1`] = `
+<div
+  data-testid="alert-diaglog-info"
+  id="alertText"
+>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis istum dolorem timet? Erat enim res aperta. Habes, inquam, Cato, formam eorum, de quibus loquor, philosophorum. Respondeat totidem verbis. Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Duo Reges: constructio interrete. Cupit enim dícere nihil posse ad beatam vitam deesse sapienti.
+</div>
+`;
