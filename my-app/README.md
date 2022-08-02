@@ -2,8 +2,9 @@
 
 This web application is a page that consist of some html components with aria techniques being applied
 to them according to https://www.w3.org/WAI/ARIA to be disability friendly.
-I've structured and built the page layout to enforce landmark regions and applied as
-much information to each components.
+I've structured and built the page layout to enforce landmark region structure.
+
+The components in the main section are just some basic every day seen components. e.g table, article, alert messages, tables, accodians.
 
 Note: the design is very simple as I did not put much emphasis on the overall look of the application
 and focuses were put in techniques over look.
