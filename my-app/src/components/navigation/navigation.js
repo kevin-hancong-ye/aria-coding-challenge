@@ -5,6 +5,9 @@ export default function NavigationComponent() {
 		<div className="navigationContainer" role="navigation">
 			<ul>
 				<li>
+					<a href="#tab_section">Tab</a>
+				</li>
+				<li>
 					<a href="#article_section">Article</a>
 				</li>
 				<li>

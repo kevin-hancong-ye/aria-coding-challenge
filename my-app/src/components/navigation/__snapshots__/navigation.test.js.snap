@@ -1,11 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders banner component 1`] = `
+exports[`renders navigation component 1`] = `
 <div
   class="navigationContainer"
   role="navigation"
 >
   <ul>
+    <li>
+      <a
+        href="#tab_section"
+      >
+        Tab
+      </a>
+    </li>
     <li>
       <a
         href="#article_section"

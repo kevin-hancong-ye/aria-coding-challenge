@@ -20,6 +20,13 @@ exports[`renders app component 1`] = `
       <ul>
         <li>
           <a
+            href="#tab_section"
+          >
+            Tab
+          </a>
+        </li>
+        <li>
+          <a
             href="#article_section"
           >
             Article
@@ -70,6 +77,71 @@ exports[`renders app component 1`] = `
       <div
         class="mainBodyContainer"
       >
+        <div
+          aria-labelledby="tab-heading"
+          id="tab_section"
+          role="region"
+        >
+          <h2
+            id="tabs-heading"
+            role="heading"
+          >
+            Tabs
+          </h2>
+          <div
+            aria-label="Entertainment"
+            role="tablist"
+          >
+            <button
+              aria-controls="nils-tab"
+              aria-selected="true"
+              class="tabButton activeTab"
+              data-testid="nils-button"
+              id="nils"
+              role="tab"
+              tabindex="0"
+            >
+              Nils
+            </button>
+            <button
+              aria-controls="agnes-tab"
+              aria-selected="false"
+              class="tabButton "
+              data-testid="agnes-button"
+              id="agnes"
+              role="tab"
+              tabindex="-1"
+            >
+              Agnes Obel
+            </button>
+            <button
+              aria-controls="complex-tab"
+              aria-selected="false"
+              class="tabButton "
+              data-testid="complex-button"
+              id="complex"
+              role="tab"
+              tabindex="-1"
+            >
+              Joke
+            </button>
+          </div>
+          <div
+            class="tabPannelContainer"
+          >
+            <div
+              aria-labelledby="nils"
+              data-testid="nils-panel"
+              id="nils-tab"
+              role="tabpanel"
+              tabindex="0"
+            >
+              <p>
+                Nils Frahm is a German musician, composer and record producer based in Berlin. He is known for combining classical and electronic music and for an unconventional approach to the piano in which he mixes a grand piano, upright piano, Roland Juno-60, Rhodes piano, drum machine, and Moog Taurus.
+              </p>
+            </div>
+          </div>
+        </div>
         <div
           aria-labelledby="article-heading"
           id="article_section"

@@ -6,6 +6,7 @@ import {
 	AlertComponent,
 	CheckBoxComponent,
 	TableComponent,
+	TabComponent,
 } from "./components";
 import { AlertPopupContext } from "./context/alertPopupContext";
 
@@ -24,6 +25,7 @@ export function MainComponent() {
 				Main
 			</h1>
 			<div className="mainBodyContainer">
+				<TabComponent />
 				<ArticleComponent />
 				<AccordianComponent />
 				<AlertPopupContext.Provider
